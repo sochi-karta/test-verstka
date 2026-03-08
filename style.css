@@ -115,11 +115,22 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #F8F9FB;
+  background: #EAF1F6; /* Цвет, как на макете Фигмы — светло-голубой */
   border-bottom: 1px solid #EAF1F6;
   padding: 0 12px;
   min-height: 66px;
   gap: 26px;
+}
+
+/* Вертикальная линия-разделитель */
+.header__divider {
+  display: block;
+  width: 1px;
+  height: 34px;
+  background: #C9D9E7; /* Цвет разделителя: светлее #EAF1F6, можно #C9D9E7 */
+  margin: 0 22px;
+  border-radius: 2px;
+  opacity: 0.92;
 }
 
 .header__logo-box {
@@ -170,14 +181,6 @@ section {
   font-weight: 500;
   margin-left: 7px;
   min-width: 110px;
-}
-
-.header__divider {
-  display: block;
-  width: 1px;
-  height: 34px;
-  background: #EAF1F6;
-  margin: 0 22px;
 }
 
 .header__contacts {
