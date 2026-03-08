@@ -295,82 +295,109 @@
         </section>
     </div>
     <!-- Footer -->
-    <footer class="footer">
-        <div class="container footer__main">
+<footer class="footer">
+    <div class="container">
+
+        <!-- Верхнее меню -->
+        <div class="footer__menu">
             <div class="footer__logo">
-                <img src="assets/logo-migrapro.svg" alt="МИГРАПРО">
+                <img src="logo.svg" alt="МИГРАПРО">
             </div>
             <nav class="footer__nav">
                 <ul>
-                    <li>Услуги иностранным гражданам</li>
-                    <li>Отмена депортации</li>
-                    <li>Полезные статьи</li>
-                    <li>Вопросы и ответы</li>
-                    <li>Карта сайта</li>
-                    <li>Контакты</li>
+                    <li><a href="#">Услуги иностранным гражданам</a></li>
+                    <li><a href="#">Отмена депортации</a></li>
+                    <li><a href="#">Полезные статьи</a></li>
+                    <li><a href="#">Вопросы и ответы</a></li>
+                    <li><a href="#">Карта сайта</a></li>
+                    <li><a href="#">Контакты</a></li>
                 </ul>
             </nav>
-            <div class="footer__links">
-                <div>
-                    <strong>Получить РВП РФ</strong>
-                    <ul>
-                        <li>Получить квоту на РВП</li>
-                        <li>Получить РВП по браку</li>
-                        <li>Получить РВП по образованию</li>
-                    </ul>
-                </div>
-                <div>
-                    <strong>Получить ВНЖ РФ</strong>
-                    <ul>
-                        <li>Получить ВНЖ по браку</li>
-                        <li>Получить ВНЖ по ребенку</li>
-                        <li>Получить ВНЖ по родителям</li>
-                    </ul>
-                </div>
-                <div>
-                    <strong>Гражданство РФ</strong>
-                    <ul>
-                        <li>Гражданство РФ в общем порядке</li>
-                        <li>Гражданство РФ в упрощённом порядке</li>
-                        <li>Гражданство РФ по родителям</li>
-                        <li>Гражданство РФ по детям</li>
-                        <li>Гражданство РФ по браку</li>
-                    </ul>
-                </div>
-                <div>
-                    <strong>Оформление рабочей визы</strong>
-                    <ul>
-                        <li>Разрешение на привлечение и использование иностранных работников</li>
-                        <li>Оформление приглашения для иностранных</li>
-                        <li>Разрешение на работу для студентов</li>
-                    </ul>
-                </div>
+        </div>
+
+        <!-- Основной ряд ссылок (flex) -->
+        <div class="footer__linksrow">
+            <div class="footer__linkcol">
+                <strong>Получить РВП РФ</strong>
+                <ul>
+                    <li><a href="#">Получить квоту на РВП</a></li>
+                    <li><a href="#">Получить РВП по браку</a></li>
+                    <li><a href="#">Получить РВП по образованию</a></li>
+                </ul>
             </div>
+            <div class="footer__linkcol">
+                <strong>Получить ВНЖ РФ</strong>
+                <ul>
+                    <li><a href="#">Получить ВНЖ по браку</a></li>
+                    <li><a href="#">Получить ВНЖ по ребенку</a></li>
+                    <li><a href="#">Получить ВНЖ по родителям</a></li>
+                </ul>
+            </div>
+            <div class="footer__linkcol">
+                <strong>Гражданство РФ</strong>
+                <ul>
+                    <li><a href="#">Гражданство РФ в общем порядке</a></li>
+                    <li><a href="#">Гражданство РФ в упрощённом порядке</a></li>
+                    <li><a href="#">Гражданство РФ по родителям</a></li>
+                    <li><a href="#">Гражданство РФ по детям</a></li>
+                    <li><a href="#">Гражданство РФ по браку</a></li>
+                </ul>
+            </div>
+            <div class="footer__linkcol">
+                <strong>Оформление рабочей визы</strong>
+                <ul>
+                    <li><a href="#">Разрешение на привлечение и использование иностранных работников</a></li>
+                    <li><a href="#">Оформление приглашения для иностранных</a></li>
+                    <li><a href="#">Разрешение на работу для студентов</a></li>
+                </ul>
+            </div>
+            <div class="footer__linkcol--btn">
+                <button class="btn-red">Помощь специалиста</button>
+            </div>
+        </div>
+
+        <!-- Контакты и соцсети, flex row -->
+        <div class="footer__contactsrow">
             <div class="footer__contacts">
                 <address>
                     Московская область, Одинцовский р-н, п. Новоивановское, ул. Калинина 8<br>
                     Ежедневно: 09:00–18:00<br>
                     <a href="tel:+74951273327">+7 (495) 127-33-27</a>
                 </address>
+            </div>
+            <!-- Вот эта часть СТРОГО справа -->
+            <div class="footer__socialblock-right">
+                <span>Мы в соц.сетях:</span>
                 <div class="footer__social">
-                    <a href="#"><img src="assets/icon-youtube.svg" alt="YouTube"></a>
-                    <a href="#"><img src="assets/icon-vk.svg" alt="VK"></a>
-                    <a href="#"><img src="assets/icon-whatsapp.svg" alt="WhatsApp"></a>
-                    <a href="#"><img src="assets/icon-telegram.svg" alt="Telegram"></a>
+                    <a href="#"><img src="image 141.png" alt="YouTube"></a>
+                    <a href="#"><img src="image 142.png" alt="VK"></a>
+                    <a href="#"><img src="image 143.png" alt="WhatsApp"></a>
+                    <a href="#"><img src="image 144.png" alt="Telegram"></a>
                 </div>
-                <button class="btn-red">Помощь специалиста</button>
             </div>
-            <div class="footer__note">
-                <img src="icon-mo.svg" alt="">
-                <img src="icon-gosuslugi.svg" alt="">
-                <img src="icon-portal.svg" alt="">
+            <div class="footer__govlinks">
+                <a href="#"><img src="image 139.png" alt="Правительство МО">Правительство МО</a>
+                <a href="#"><img src="image 139.png" alt="Правительство МО">Правительство МО</a>
+                <a href="#"><img src="лого_госуслуги.png" alt="Госуслуги МО">Госуслуги МО</a>
             </div>
+        </div>
+
+        <!-- Линия-разделитель -->
+        <hr class="footer__divider">
+
+        <!-- Низ (копирайт и серая строка) -->
+        <div class="footer__bottom">
             <div class="footer__copyright">
                 ООО "Городской консалтинг центр" ИНН 770900681<br>
                 © Все права защищены.
             </div>
+            <div class="footer__note">
+                <span>Создание сайта и комплексный маркетинг. Заказать рекламу в интернете. Заказать создание
+                    сайта.</span>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 
 </html>
