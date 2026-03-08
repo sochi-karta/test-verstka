@@ -106,62 +106,10 @@ section {
 }
 
 .header {
-  background: var(--white);
-  box-shadow: 0px 2px 8px rgba(128,128,128,0.08);
-  border-radius: 0 0 16px 16px;
-  padding: 0 0 14px;
-}
-
-.header__top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 0;
-}
-
-.header__logo {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.header__logo img {
-  height: 36px;
-}
-
-.header__rating {
-  color: var(--accent-blue);
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.header__rating-text {
-  color: var(--primary-blue);
-  font-size: 14px;
-}
-
-.header__contacts {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.header__phone {
-  color: var(--primary-blue);
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.header__worktime {
-  font-size: 14px;
-  color: var(--secondary-blue);
-}
-
-.header {
   background: #fff;
   box-shadow: 0px 2px 8px rgba(128,128,128,0.08);
   border-radius: 0 0 16px 16px;
-  padding: 0 0 16px;
+  padding-bottom: 0;
   margin-bottom: 12px;
 }
 
@@ -169,45 +117,48 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 0;
+  min-height: 44px;
+  padding: 6px 0 2px;
 }
 
 .header__logo {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 14px;
+  min-width: 285px;
 }
-
-.header__logo img {
-  height: 38px;
+.header__logo img:first-child {
+  height: 36px;
 }
-
-.header__rating {
-  color: #50B3FF;
-  font-size: 18px;
-  font-weight: 700;
+.header__logo img:nth-child(2) {
+  height: 22px;
 }
-
 .header__rating-text {
   color: #2154B2;
   font-size: 14px;
+  padding-left: 8px;
 }
 
 .header__contacts {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: center;
+  gap: 10px;
+  min-width: 310px;
 }
-
+.header__contacts img {
+  height: 32px;
+}
 .header__phone {
   color: #2154B2;
   font-size: 16px;
   font-weight: 700;
+  padding-left: 8px;
+  padding-right: 8px;
 }
-
 .header__worktime {
   font-size: 14px;
   color: #1A4FB0;
+  padding-left: 8px;
 }
 
 .header__consult {
@@ -226,32 +177,12 @@ section {
 .header__consult:hover {
   background: #b20101;
 }
+
+/* Навигация — отдельная линия снизу */
 .nav {
-  margin-top: 8px;
-}
-
-.nav__list {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-}
-
-.nav__list a {
-  font-size: 16px;
-  color: var(--primary-blue);
-  font-weight: 600;
-  padding: 10px 0;
-}
-
-.nav__list a:hover {
-  border-bottom: 2px solid var(--accent-blue);
-}
-
-.nav {
-  margin-top: 3px;
+  border-top: 1px solid #EAF1F6;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav__list {
@@ -267,7 +198,7 @@ section {
   font-size: 16px;
   color: #2154B2;
   font-weight: 600;
-  padding: 9px 0;
+  padding: 10px 0 13px 0;
   transition: border 0.18s;
 }
 
