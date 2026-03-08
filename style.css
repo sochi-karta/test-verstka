@@ -650,25 +650,6 @@ section {
   margin: 0 auto;
 }
 
-.cover__title {
-  position: absolute;
-  width: 670px;
-  height: 174px;
-  left: 0;
-  top: 0;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 120%;
-  display: flex;
-  align-items: center;
-  background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-fill-color: transparent;
-}
 
 .cover__imgwrap {
   position: absolute;
@@ -750,4 +731,91 @@ section {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.hero.container,
+.cover {
+  margin-top: 40px;   /* Примерно как в макете. Если надо больше/меньше — делай 48px или 56px */
+}
+.nav {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(32, 50, 70, 0.06);
+  padding: 0 32px;
+  margin-top: 8px;
+}
+
+@media (min-width: 1200px) {
+  .cover { margin-top: 48px; }
+}
+@media (max-width: 1199px) {
+  .cover { margin-top: 24px; }
+}
+
+.cover {
+  margin-top: 48px;   /* по вкусу, подбери чтобы было как в макете */
+}
+
+/* MENU (контейнер навигации) */
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1170px;
+  height: 72px;
+
+  padding: 16px;
+  gap: 32px;
+
+  background: #FFFFFF;
+  /* порядок важен для теней снизу: последняя — тёмная линия, первые — широкие рассеянные */
+  box-shadow:
+    2px -2px 8px -204px rgba(128, 128, 128, 0.08),
+    -2px 2px 8px -204px rgba(128, 128, 128, 0.08),
+    0px 0px 1px #E4E4E4;
+  border-radius: 0px 0px 16px 16px;
+}
+
+/* MENU-ITEMS (контейнер ссылок) */
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  width: 1050px;
+  height: 40px;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0;  /* Можно добавить gap между пунктами, если требуется */
+}
+
+/* Для адаптивных контейнеров возможно потребуется центрировать по .container */
+.container {
+  margin: 0 auto;
+  width: 1170px;
+  max-width: 100%;
+}
+
+.cover__title {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0;
+  padding: 0;
+  max-width: 640px;
+  background: none;
+  display: block;
+}
+
+.cover__title-blue {
+  color: #2154B2;
+  display: block;
+}
+
+.cover__title-black {
+  color: #222;
+  display: block;
 }
