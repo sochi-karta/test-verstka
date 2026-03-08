@@ -367,23 +367,6 @@ section {
 }
 .btn-red:hover { background: #ad1818; }
 
-.feature {
-  background: var(--white);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  border-radius: 16px;
-  box-shadow: var(--shadow);
-  padding: 10px 16px;
-  font-size: 15px;
-  min-width: 140px;
-}
-
-.feature img {
-  height: 42px;
-  position: relative;
-}
 
 .services {
   margin-top: 36px;
@@ -818,4 +801,70 @@ section {
 .cover__title-black {
   color: #222;
   display: block;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+    
+    margin: 30px 0;
+    padding: 0;
+}
+
+/* Один фичер */
+.feature {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(32, 50, 70, 0.10);
+    padding: 0 30px 0 18px;
+    min-width: 0;
+    height: 60px;
+    gap: 12px;
+    flex: 1 1 0;
+}
+
+.feature__icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0;
+    flex-shrink: 0;
+}
+.feature__icon svg {
+    width: 40px;   /* Подгони под дизайн SVG */
+    height: 36px;
+    display: block;
+}
+
+.feature__text {
+    font-family: 'Inter', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #222;
+    margin-left: 0;
+    white-space: normal;
+    text-align: left;
+}
+
+.feature__title {
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #313131;
+}
+
+.feature__desc {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #313131; /* или другой, если нужно светлее */
 }
