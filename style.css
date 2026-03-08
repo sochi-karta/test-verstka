@@ -311,17 +311,23 @@ section {
   font-weight: 500;
 }
 
+.hero__visual {
+  position: relative;
+}
+
 .hero__box {
   position: absolute;
-  left: 36px;   /* подбери по макету */
-  bottom: 28px; /* <- !!! вот главный секрет!!! */
-  /* остальное: тень, паддинг, радиус как было */
+  left: 0;
+  bottom: 0;
+  transform: none;
   background: #fff;
-  box-shadow: 0 6px 36px rgba(30,33,62,0.13);
+  box-shadow: 0 8px 36px rgba(30,33,62,0.15);
   border-radius: 16px;
-  padding: 28px 32px 20px;
-  max-width: 430px;
-  z-index: 2;
+  padding: 32px 40px 24px 40px;
+  width: 540px; /* подбери как в макете/образце */
+  text-align: left;
+  /* Можно добавить небольшой отступ слева если нужно: */
+  margin-left: 32px;
 }
 
 .accent-blue {
@@ -332,7 +338,7 @@ section {
 .hero__img {
   position: relative;
   display: flex;
-  align-items: flex-end; /* подвешиваем вниз */
+  align-items: flex-end; 
 }
 
 .hero__img img {
@@ -635,4 +641,113 @@ section {
     font-size: 12px;
     padding-bottom: 10px;
   }
+}
+
+.cover {
+  position: relative;
+  width: 1170px;
+  height: 706px;
+  margin: 0 auto;
+}
+
+.cover__title {
+  position: absolute;
+  width: 670px;
+  height: 174px;
+  left: 0;
+  top: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cover__imgwrap {
+  position: absolute;
+  width: 1170px;
+  height: 650px;
+  left: 0;
+  top: 0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.cover__img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+.cover__card {
+  position: absolute;
+  width: 770px;
+  height: 185px; /* 129+56, чтобы карточка перекрывала две строки */
+  left: 400px;
+  top: 448px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 44px rgba(32,50,70,0.14);
+  padding: 36px 40px 24px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  z-index: 2;
+}
+
+.cover__card-title {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: rgba(0,0,0,0.87);
+  margin-bottom: 12px;
+}
+
+.cover__card-text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0.44px;
+  color: rgba(0,0,0,0.54);
+}
+
+.accent-blue {
+  color: #2154B2;
+  font-weight: inherit;
+}
+
+.cover__btn {
+  position: absolute;
+  width: 370px;
+  height: 44px;
+  left: 0;
+  top: 662px;
+  background: #CC0A0A;
+  border-radius: 8px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.75px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
