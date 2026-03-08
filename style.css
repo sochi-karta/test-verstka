@@ -112,14 +112,14 @@ section {
 }
 
 .header__top {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #EAF1F6; /* Цвет, как на макете Фигмы — светло-голубой */
-  border-bottom: 1px solid #EAF1F6;
-  padding: 0 12px;
-  min-height: 66px;
-  gap: 26px;
+    display: flex;
+    align-items: center;  /* строго центрирует ВСЁ по вертикали! */
+    justify-content: space-between;
+    background: #EAF1F6;
+    border-bottom: 1px solid #EAF1F6;
+    padding: 0 12px;
+    min-height: 66px;
+    gap: 0;
 }
 
 /* Вертикальная линия-разделитель */
@@ -136,14 +136,13 @@ section {
 .header__logo-box {
   display: flex;
   align-items: center;
-  gap: 80px;
+  gap: 70px;
 }
 
 
 .header__logo {
   height: 37px;
   width: 176px;
-  gap: 40;
 }
 
 .header__rating-box {
@@ -197,12 +196,12 @@ section {
 .header__socicon {
   width: 28px;
   height: 24px;
-  margin: left;
+  margin-right: 5px;
 }
 .header__phone-ico {
   width: 24px;
   height: 24px;
-  margin: 0 10px 0 2px; /* увеличь справа с 6px до 10px */
+  margin: 0 1px 0 2px; /* увеличь справа с 6px до 10px */
   vertical-align: middle;
 }
 
@@ -229,19 +228,23 @@ section {
 }
 
 .header__consult {
-  background: #CC0A0A;
-  color: #fff;
-  border: none;
-  border-radius: 8px;
-  font-weight: 600;
-  font-size: 16px;
-  width: 232px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-  margin-left: 14px;
+    background: #CC0A0A;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    width: 232px;
+    height: 40px;
+    padding: 0 8px;
+    cursor: pointer;
+    display: flex;           /* КРИТИЧЕСКИ ВАЖНО! */
+    align-items: center;     /* --- */
+    justify-content: center; /* --- */
+    margin-left: 14px;
+    white-space: nowrap;
 }
+
 .header__consult:hover { background: #b20101; }
 
 /* Навигация - линия снизу */
