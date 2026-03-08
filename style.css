@@ -270,6 +270,18 @@ section {
   border-bottom: 2px solid #50B3FF;
 }
 
+.nav__arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px; /* чтобы стрелка не слепалась с текстом */
+}
+.nav__arrow svg {
+  vertical-align: middle;
+  width: 14px;
+  height: 6px;
+  display: inline;
+}
+
 .hero {
   display: flex;
   align-items: center;
