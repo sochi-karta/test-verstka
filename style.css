@@ -144,14 +144,6 @@ section {
   width: 176px;
 }
 
-.header__rating-box {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  min-width: 120px;
-}
-
 .header__stars-row {
   display: flex;
   gap: 4px;
@@ -163,13 +155,22 @@ section {
   height: 12px;
 }
 
+.header__rating-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрирует подпись под звездами */
+}
+
 .header__rating-caption {
   font-size: 13px;
-  color: #2154B2;
-  margin-top: 3px;
-  line-height: 1;
+  color: #4976B2;  /* более мягкий, ближе к макету: #4976B2 */
+  margin-top: 5px;
+  line-height: 1.1;
   font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.01em;
 }
+
 .header__stars {
   width: 13px;
   height: 12px;
