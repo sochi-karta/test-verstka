@@ -117,48 +117,69 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 44px;
-  padding: 6px 0 2px;
+  min-height: 60px;
+  padding: 0;
+  border-bottom: 1px solid #EAF1F6;
+  gap: 28px; /* основной горизонтальный гэп между логотипом, центром и кнопкой */
+}
+
+.header__logo-box {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  min-width: 440px; /* подогнано под макет, можешь докрутить */
 }
 
 .header__logo {
+  height: 37px; /* строго по макету */
+  width: 176px;
+}
+
+.header__rating-box {
   display: flex;
   align-items: center;
-  gap: 14px;
-  min-width: 285px;
+  gap: 10px; /* между звездами и текстом */
 }
-.header__logo img:first-child {
-  height: 36px;
-}
-.header__logo img:nth-child(2) {
-  height: 22px;
+.header__stars {
+  height: 12px;
+  width: 89px;
 }
 .header__rating-text {
   color: #2154B2;
-  font-size: 14px;
-  padding-left: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  width: 110px; /* по макету */
 }
 
 .header__contacts {
   display: flex;
   align-items: center;
-  gap: 10px;
-  min-width: 310px;
+  gap: 8px;
+  min-width: 340px; /* прижать к длине макета */
 }
-.header__contacts img {
-  height: 32px;
+.header__socicon {
+  height: 24px;
+  width: 28px;  /* 2 иконки = 56px по макету */
+}
+.header__phone-ico {
+  height: 24px;
+  width: 24px;
+  margin-left: 8px;
+  margin-right: 4px;
 }
 .header__phone {
   color: #2154B2;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
-  padding-left: 8px;
-  padding-right: 8px;
+  width: 121px; /* строго под блок телефона */
+  text-align: left;
 }
 .header__worktime {
-  font-size: 14px;
+  font-size: 13px;
   color: #1A4FB0;
-  padding-left: 8px;
+  width: 127px; /* под строку времени */
+  text-align: left;
+  margin-left: 6px;
 }
 
 .header__consult {
@@ -168,40 +189,40 @@ section {
   border-radius: 8px;
   font-weight: 600;
   font-size: 16px;
-  padding: 10px 22px;
-  box-shadow: 0 2px 6px rgba(204,10,10,0.09);
+  padding: 0;
+  width: 232px; /* ровно по макету */
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
   cursor: pointer;
+  box-shadow: 0 2px 6px rgba(204,10,10,0.09);
   transition: background 0.18s;
+  margin-left: 8px;
 }
 
 .header__consult:hover {
   background: #b20101;
 }
 
-/* Навигация — отдельная линия снизу */
+/* Навигация - линия снизу */
 .nav {
-  border-top: 1px solid #EAF1F6;
-  margin-top: 0;
-  margin-bottom: 0;
+  background: #fff;
 }
-
 .nav__list {
   list-style: none;
   display: flex;
-  gap: 24px;
   justify-content: center;
+  gap: 28px;
   padding: 0;
   margin: 0;
 }
-
 .nav__list a {
   font-size: 16px;
   color: #2154B2;
   font-weight: 600;
-  padding: 10px 0 13px 0;
+  padding: 13px 0 10px 0;
   transition: border 0.18s;
 }
-
 .nav__list a:hover {
   border-bottom: 2px solid #50B3FF;
 }
