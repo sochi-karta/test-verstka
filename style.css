@@ -144,10 +144,19 @@ section {
   width: 176px;
 }
 
+.header__rating-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;         /* ВАЖНО: строго по центру! */
+  justify-content: center;
+  min-width: 115px;            /* подгоняй по своему макету! */
+}
+
 .header__stars-row {
   display: flex;
   gap: 4px;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
+  justify-content: center;
 }
 
 .header__star {
@@ -155,25 +164,17 @@ section {
   height: 12px;
 }
 
-.header__rating-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Центрирует подпись под звездами */
-}
-
 .header__rating-caption {
+  font-family: 'Arial', 'Tahoma', sans-serif;
   font-size: 13px;
-  color: #4976B2;  /* более мягкий, ближе к макету: #4976B2 */
-  margin-top: 5px;
-  line-height: 1.1;
-  font-weight: 500;
+  color: #3562A6;      /* Ближе к макету, не чёрный, не тёмно-синий; если надо — пипеткой #3562A6, #567BB5, #517EBC */
+  font-weight: 400;
+  line-height: 1.13;   /* Фирменная “плотность” */
   text-align: center;
+  margin: 0;
+  max-width: 120px;
   letter-spacing: 0.01em;
-}
-
-.header__stars {
-  width: 13px;
-  height: 12px;
+  white-space: normal; /* Перенос строк если нужно */
 }
 
 .header__rating-text {
