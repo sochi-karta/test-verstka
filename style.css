@@ -368,92 +368,122 @@ section {
 .btn-red:hover { background: #ad1818; }
 
 
-.services {
-  margin-top: 36px;
+.btn-blue {
+    margin-top: auto;
+    background: #2154B2;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 14px 30px;
+    transition: background 0.18s;
+    cursor: pointer;
+    display: block;
+}
+.btn-blue:hover {
+    background: #1A4FB0;
 }
 
-.services__items {
-  display: flex;
-  gap: 32px;
-  justify-content: center;
-  margin-bottom: 60px;
-  flex-wrap: wrap;
+.gov-online {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 0;       /* ВСЁ! */
+    /* width и margin лишние! */
+    padding: 0;
+}
+.gov-online__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 1170px;
+    padding: 0;
 }
 
-.service-item {
-  background: var(--white);
-  border: 0.2px solid rgba(0,0,0,0.12);
-  border-radius: 12px;
-  box-shadow: var(--shadow);
-  max-width: 470px;
-  flex: 1 1 380px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 32px 28px;
-  gap: 18px;
+
+.gov-online__title h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    color: rgba(0, 0, 0, 0.87);
+    text-transform: uppercase;
+    margin: 0 0 12px 0;
+    letter-spacing: 0;
 }
 
-.service-title {
-  font-size: 22px;
-  font-weight: 600;
-  color: var(--primary-blue);
-  margin-bottom: 8px;
+.gov-online__desc {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: rgba(0, 0, 0, 0.54);
+    height: 24px;
+    display: flex;
+    align-items: center;
 }
 
-.service-desc {
-  font-size: 15px;
-  color: var(--black-text);
-  line-height: 1.4;
-  margin-bottom: 18px;
+.gov-online__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 1170px;
+    padding: 0;
 }
 
-.gov-services {
-  margin: 52px 0;
+.gov-link-card {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 30px;
+    gap: 4px;
+    width: 370px;
+    height: 116px;
+    background: rgba(255,255,255,0.64);
+    border: 0.3px solid rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: box-shadow 0.18s;
 }
 
-.gov-services h2 {
-  color: var(--black-text);
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  letter-spacing: 1px;
+.gov-link-card:hover {
+    box-shadow: 0 2px 18px rgba(128,128,128,0.09);
 }
 
-.gov-services p {
-  color: rgba(0,0,0,0.75);
-  margin-bottom: 22px;
+.gov-link-text {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.44px;
+    color: rgba(0, 0, 0, 0.54);
+    width: 282px;
+    height: 56px;
+    display: flex;
+    align-items: center;
 }
 
-.gov-services__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  justify-content: flex-start;
+.gov-link-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
-.gov-service {
-  background: var(--white);
-  border-radius: 10px;
-  box-shadow: 0px 2px 9px rgba(128,128,128,0.07);
-  border: 1px solid var(--border-color);
-  padding: 18px 24px;
-  font-size: 16px;
-  font-weight: 600;
-  color: var(--primary-blue);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  min-width: 235px;
-  transition: box-shadow 0.16s, border 0.16s;
+.gov-link-icon svg {
+    width: 24px;
+    height: 24px;
+    fill: #000;
+    opacity: 0.54;
 }
-
-.gov-service:hover {
-  box-shadow: 0px 2px 18px rgba(128,128,128,0.12);
-  border-color: var(--accent-blue);
-  color: var(--secondary-blue);
-}
-
 .arrow {
   color: var(--red);
   font-size: 18px;
@@ -867,4 +897,103 @@ section {
   font-size: 15px;
   font-weight: 500;
   color: #313131; /* или другой, если нужно светлее */
+}
+
+.offers {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 60px;  /* только это */
+    padding: 0;
+}
+.offer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(32, 50, 70, 0.10);
+    width: 510px;
+    min-width: 510px;
+    height: 294px;
+    padding: 32px 32px 24px 32px;
+    gap: 18px;
+}
+
+.offer-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.4;
+    color: rgba(0,0,0,0.87);
+    margin-bottom: 8px;
+    height: 34px; /* как в фигме */
+    display: flex;
+    align-items: center;
+}
+
+.offer-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+    color: rgba(0,0,0,0.54);
+    margin-bottom: auto;
+    height: 96px;   /* строго как в макете */
+    display: flex;
+    align-items: center;
+}
+
+.offer-btn {
+    width: 510px;
+    height: 44px;
+    background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+.offer-btn span {
+    width: 159px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.75px;
+}
+
+.services,
+.offers {
+    margin-bottom: 60px; /* или 56px */
+}
+.gov-online {
+    margin-top: 60px;
+}
+.service-item {
+    /* твои стили */
+    margin-bottom: 32px; /* или столько же, сколько нужно по фигме */
+}
+.services {
+    margin-bottom: 60px;
+
 }
