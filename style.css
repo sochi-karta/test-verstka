@@ -15,3 +15,5107 @@ top: 59px;
 
 /* white/100 */
 background: #FFFFFF;
+
+
+/* main_screen */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+width: 1170px;
+height: 984px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Header */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+width: 1170px;
+height: 138px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* top-header */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 12px 30px;
+gap: 20px;
+
+width: 1170px;
+height: 66px;
+
+/* light gray */
+background: #EAF1F6;
+/* blue */
+border-width: 0px 1px;
+border-style: solid;
+border-color: #2154B2;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* логотип мигра  1 */
+
+margin: 0 auto;
+width: 176px;
+height: 37px;
+
+background: url(логотип мигра .png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 6 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 6px;
+
+margin: 0 auto;
+width: 100px;
+height: 42px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 5 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 6px;
+
+width: 89px;
+height: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 13px;
+height: 12px;
+
+background: #FDC20C;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 13px;
+height: 12px;
+
+background: #FDC20C;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 13px;
+height: 12px;
+
+background: #FDC20C;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 13px;
+height: 12px;
+
+background: #FDC20C;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Vector */
+
+width: 13px;
+height: 12px;
+
+background: #FDC20C;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Наш рейтинг на основе Яндекс */
+
+width: 100px;
+height: 24px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+/* or 100% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* div */
+
+margin: 0 auto;
+width: 0px;
+height: 24px;
+
+/* blue */
+border: 1px solid #2154B2;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Frame 2940 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 32px;
+
+margin: 0 auto;
+width: 370px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 56px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* socials */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* blue */
+background: #2154B2;
+border-radius: 500px;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 22.5%;
+top: 22.5%;
+bottom: 25%;
+
+/* light gray */
+background: #EAF1F6;
+
+
+/* socials */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* blue */
+background: #2154B2;
+border-radius: 500px;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.5%;
+right: 30%;
+top: 30%;
+bottom: 27.5%;
+
+/* light gray */
+background: #EAF1F6;
+
+
+/* Frame 4 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 282px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Frame 2947 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 2px;
+
+width: 147px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* phone */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 12.5%;
+right: 13.27%;
+top: 13.27%;
+bottom: 12.5%;
+
+/* blue */
+background: #2154B2;
+
+
+/* Phone */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 121px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* +7 (495) 154-33-85 */
+
+width: 121px;
+height: 20px;
+
+/* Secondary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 0px;
+gap: 8px;
+
+width: 127px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* dec element */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 2px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Ellipse 1 */
+
+width: 2px;
+height: 2px;
+
+/* blue */
+background: #2154B2;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* пн-пт: 09:00-18:00 */
+
+width: 117px;
+height: 20px;
+
+/* Secondary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* blue */
+color: #2154B2;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* div */
+
+margin: 0 auto;
+width: 0px;
+height: 24px;
+
+/* blue */
+border: 1px solid #2154B2;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Buttons */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+margin: 0 auto;
+width: 232px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* wrapper */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 232px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Button */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 12px;
+gap: 10px;
+
+width: 232px;
+height: 40px;
+
+/* red/100 */
+background: #CC0A0A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Бесплатная консультация */
+
+width: 208px;
+height: 24px;
+
+/* Primary - 2 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+text-align: center;
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 16px;
+gap: 32px;
+
+width: 1170px;
+height: 72px;
+
+/* white */
+background: #FFFFFF;
+/* head_shadow */
+box-shadow: 2px -2px 8px -204px rgba(128, 128, 128, 0.08), -2px 2px 8px -204px rgba(128, 128, 128, 0.08), 0px 0px 1px #E4E4E4;
+border-radius: 0px 0px 16px 16px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Menu-items */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+margin: 0 auto;
+width: 1050px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 98px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 50px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 81px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 33px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 86px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 38px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 144px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 96px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 296px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 248px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 198px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 150px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* Menu-item-container */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 10px 8px 14px;
+gap: 8px;
+
+width: 147px;
+height: 40px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Продукты */
+
+width: 99px;
+height: 24px;
+
+/* Primary - 1 */
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+font-feature-settings: 'tnum' on, 'lnum' on;
+
+/* black */
+color: #313131;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Arrow-down */
+
+width: 16px;
+height: 16px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 33.33%;
+bottom: 29.17%;
+
+/* black */
+background: #313131;
+
+
+/* cover */
+
+width: 1170px;
+height: 706px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Миграционные услуги в Москве и Московской области */
+
+position: absolute;
+width: 670px;
+height: 174px;
+left: 0px;
+top: 0px;
+
+/* H0 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 120%;
+/* or 58px */
+display: flex;
+align-items: center;
+
+/* blue/dark */
+background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+
+/* Union */
+
+position: absolute;
+width: 1170px;
+height: 650px;
+left: 0px;
+top: 0px;
+
+/* blue/back */
+background: linear-gradient(0deg, rgba(33, 84, 178, 0.3), rgba(33, 84, 178, 0.3)), url(natashabunda_91755_an_ultra_realistic_image_of_many_people_diff_171e97dc-65a3-4988-a976-fdc5e985beb2.png);
+background-blend-mode: normal, darken;
+border-radius: 30px;
+
+
+/* pic */
+
+position: absolute;
+width: 1170px;
+height: 237px;
+left: 0px;
+top: 190px;
+
+background: #D9D9D9;
+
+
+/* pic */
+
+position: absolute;
+width: 570px;
+height: 377px;
+left: 600px;
+top: 0px;
+
+background: #D9D9D9;
+
+
+/* pic */
+
+position: absolute;
+width: 370px;
+height: 274px;
+left: 0px;
+top: 376px;
+
+background: #D9D9D9;
+
+
+/* Помогаем иностранным гражданам в оформлении квоты на РВП, РВПО, РВП, ВНЖ, гражданства РФ, */
+
+position: absolute;
+width: 770px;
+height: 129px;
+left: 400px;
+top: 448px;
+
+/* H1 */
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+display: flex;
+align-items: center;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 15px;
+gap: 10px;
+
+position: absolute;
+width: 370px;
+height: 44px;
+left: 0px;
+top: 662px;
+
+/* red/100 */
+background: #CC0A0A;
+border-radius: 8px;
+
+
+/* Caption */
+
+width: 128px;
+height: 20px;
+
+/* button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+/* white/100 */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* а также организациям, привлекающим иностранных сотрудников в России при оформлении виз для сотрудников по квоте и без квот */
+
+position: absolute;
+width: 770px;
+height: 56px;
+left: 400px;
+top: 601px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+
+/* фичеры */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1170px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* фичер/default */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 370px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* feature_icon */
+
+width: 60px;
+height: 60px;
+
+/* blue/dark */
+background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+border-radius: 125px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 43.14px;
+height: 36px;
+left: calc(50% - 43.14px/2 - 0.43px);
+top: calc(50% - 36px/2);
+
+/* white/100 */
+background: #FFFFFF;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 298px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Комплексная юридическая поддержка */
+
+width: 298px;
+height: 60px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Наша команда */
+
+display: none;
+width: 298px;
+height: 19px;
+
+/* button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+display: flex;
+align-items: center;
+letter-spacing: 0.75px;
+
+/* blue/light */
+color: #50B3FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* фичер/default */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 370px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* feature_icon */
+
+width: 60px;
+height: 60px;
+
+/* blue/dark */
+background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+border-radius: 125px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 37.89px;
+height: 36px;
+left: calc(50% - 37.89px/2 - 0.05px);
+top: calc(50% - 36px/2);
+
+/* white/100 */
+background: #FFFFFF;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 298px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Комплексная юридическая поддержка */
+
+width: 298px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Наша команда */
+
+display: none;
+width: 298px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* фичер/default */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 370px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+
+/* feature_icon */
+
+width: 60px;
+height: 60px;
+
+/* blue/dark */
+background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+border-radius: 125px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 34.8px;
+height: 36px;
+left: calc(50% - 34.8px/2 + 0.4px);
+top: calc(50% - 36px/2);
+
+/* white/100 */
+background: #FFFFFF;
+
+
+/* text */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 298px;
+height: 60px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+
+/* Комплексная юридическая поддержка */
+
+width: 298px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Наша команда */
+
+display: none;
+width: 298px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* offers */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1170px;
+height: 294px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+gap: 30px;
+
+width: 570px;
+height: 294px;
+
+/* white/100 */
+background: #FFFFFF;
+/* dark/20 */
+border: 0.2px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* Иностранным гражданам */
+
+width: 510px;
+height: 34px;
+
+/* H3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+display: flex;
+align-items: center;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Консультация и помощь иностранным гражданам в процессе получения РВП (разрешения на временнное проживание), ВНЖ (вид на жительство) и приобретения Российского гражданства */
+
+width: 510px;
+height: 96px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 15px;
+gap: 10px;
+
+width: 510px;
+height: 44px;
+
+/* blue/dark */
+background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 159px;
+height: 20px;
+
+/* button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+/* white/100 */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+gap: 30px;
+
+width: 570px;
+height: 294px;
+
+/* white/100 */
+background: #FFFFFF;
+/* dark/20 */
+border: 0.2px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+
+/* Иностранным гражданам */
+
+width: 510px;
+height: 34px;
+
+/* H3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+display: flex;
+align-items: center;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Консультация и помощь иностранным гражданам в процессе получения РВП (разрешения на временнное проживание), ВНЖ (вид на жительство) и приобретения Российского гражданства */
+
+width: 510px;
+height: 96px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 15px;
+gap: 10px;
+
+width: 510px;
+height: 44px;
+
+/* blue/dark */
+background: linear-gradient(180deg, #2154B2 0%, #1A4FB0 100%);
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 159px;
+height: 20px;
+
+/* button */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+/* white/100 */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* ссылки */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 60px;
+
+width: 1170px;
+height: 676px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* title */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 1170px;
+height: 122px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Государственные онлайн сервисы для иностранных граждан */
+
+width: 1170px;
+height: 86px;
+
+/* H2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+display: flex;
+align-items: center;
+text-transform: uppercase;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Здесь вы можете получить необходимую информацию для оформления РВП, ВНЖ и Российского гражданства */
+
+width: 1170px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* ссылки */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 10px;
+
+width: 1170px;
+height: 494px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 370px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 282px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 370px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 282px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 370px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 282px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 470px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 382px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 490px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 402px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 567px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 479px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 370px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 282px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* link_card */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 30px;
+gap: 4px;
+
+width: 370px;
+height: 116px;
+
+/* white/64 */
+background: rgba(255, 255, 255, 0.64);
+/* dark/20 */
+border: 0.3px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+
+/* Проверить готовность документов РВП */
+
+width: 282px;
+height: 56px;
+
+/* T1 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 140%;
+/* or 28px */
+display: flex;
+align-items: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* icon */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.57%;
+right: 25%;
+top: 25%;
+bottom: 22.57%;
+
+/* dark/54 */
+background: rgba(0, 0, 0, 0.54);
+
+
+/* footer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+gap: 21px;
+
+width: 1170px;
+height: 690.97px;
+
+/* white/100 */
+background: #FFFFFF;
+box-shadow: 0px 2px 21px rgba(132, 132, 132, 0.2);
+border-radius: 16px 16px 0px 0px;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Group 35 */
+
+width: 170px;
+height: 35.97px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* логотип мигра  1 */
+
+position: absolute;
+width: 170px;
+height: 35.97px;
+left: calc(50% - 170px/2 - 470px);
+top: calc(50% - 35.97px/2 - 297.5px);
+
+background: url(логотип мигра .png);
+
+
+/* div */
+
+width: 1110px;
+height: 0px;
+
+/* blue/back */
+border: 1px solid #EAF1F6;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* навигация */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+
+width: 1110px;
+height: 292px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* блок_2 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 1110px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 272px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Услуги иностранным гражданам */
+
+width: 272px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 168px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Отмена депортации */
+
+width: 168px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 143px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Полезные статьи */
+
+width: 143px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 153px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Вопросы и ответы */
+
+width: 153px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 100px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Карта сайта */
+
+width: 100px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+margin: 0 auto;
+width: 79px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Контакты */
+
+width: 79px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* документы */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 1110px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* mob/рвп/список */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 265px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить РВП РФ */
+
+margin: 0 auto;
+width: 265px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+margin: 0 auto;
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* список */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 343px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 343px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Получить квоту на РВП */
+
+width: 343px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 343px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить по браку */
+
+width: 343px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 343px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить РВП по образованию */
+
+width: 343px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* внж */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 265px;
+height: 144px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить ВНЖ РФ */
+
+margin: 0 auto;
+width: 265px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+margin: 0 auto;
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* список */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 265px;
+height: 104px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить ВНЖ по браку */
+
+width: 265px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить ВНЖ по ребенку */
+
+width: 265px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Получить ВНЖ по родителям */
+
+width: 265px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* гражданство */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 265px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Гражданство РФ */
+
+margin: 0 auto;
+width: 265px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+margin: 0 auto;
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* список */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 265px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Гражданство РФ в общем порядке */
+
+width: 265px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Гражданство РФ в упрощенном порядке */
+
+width: 265px;
+height: 48px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 229px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Гражданство РФ по родителям */
+
+width: 229px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 194px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* Гражданство РФ по детям */
+
+width: 194px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 192px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* Гражданство РФ по браку */
+
+width: 192px;
+height: 24px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* виза */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+margin: 0 auto;
+width: 265px;
+height: 240px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 32px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Оформление рабочей визы */
+
+margin: 0 auto;
+width: 265px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+margin: 0 auto;
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* список */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 265px;
+height: 200px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 80px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Разрешение на привлечение и использование иностранных работников */
+
+width: 265px;
+height: 72px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Оформление приглашения для иностранцев */
+
+width: 265px;
+height: 48px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* footer_item */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 4px 0px;
+gap: 4px;
+
+width: 265px;
+height: 56px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Разрешение на работу для студентов */
+
+width: 265px;
+height: 48px;
+
+/* mob/T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+letter-spacing: 0.44px;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+
+/* navigation */
+
+display: none;
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* div */
+
+width: 1110px;
+height: 0px;
+
+/* blue/back */
+border: 1px solid #EAF1F6;
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* ссылки */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 1110px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* contacts */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 241px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* адрес */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 241px;
+height: 58px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* number */
+
+width: 241px;
+height: 36px;
+
+/* T3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* or 18px */
+display: flex;
+align-items: center;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* number */
+
+width: 241px;
+height: 18px;
+
+/* T3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+display: flex;
+align-items: center;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 2948 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 112px;
+height: 54px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* number */
+
+width: 112px;
+height: 18px;
+
+/* T3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+display: flex;
+align-items: center;
+text-align: center;
+
+/* dark/87 */
+color: rgba(0, 0, 0, 0.87);
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* мессенджеры */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 56px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* socials */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* blue */
+background: #2154B2;
+border-radius: 500px;
+
+
+/* Vector */
+
+position: absolute;
+left: 25%;
+right: 22.5%;
+top: 22.5%;
+bottom: 25%;
+
+/* light gray */
+background: #EAF1F6;
+
+
+/* socials */
+
+width: 24px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* blue */
+background: #2154B2;
+border-radius: 500px;
+
+
+/* Vector */
+
+position: absolute;
+left: 22.5%;
+right: 30%;
+top: 30%;
+bottom: 27.5%;
+
+/* light gray */
+background: #EAF1F6;
+
+
+/* Frame 3220 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 100px 0px 0px;
+gap: 10px;
+
+margin: 0 auto;
+width: 262px;
+height: 48px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Мы в соц.сетях: */
+
+width: 162px;
+height: 18px;
+
+/* T3 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+/* identical to box height, or 18px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* Frame 3219 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+width: 162px;
+height: 20px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+
+/* image 141 */
+
+width: 20px;
+height: 20px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 140 */
+
+width: 16px;
+height: 16px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 142 */
+
+width: 20px;
+height: 20px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* Icon_RUTUBE_dark_color 1 */
+
+width: 16px;
+height: 16px;
+
+background: url(Icon_RUTUBE_dark_color.png);
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+
+/* image 143 */
+
+width: 20px;
+height: 20px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+
+/* image 144 */
+
+width: 20px;
+height: 20px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* Frame 2949 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+gap: 68px;
+
+margin: 0 auto;
+width: 514px;
+height: 124px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* btn */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px 15px;
+gap: 10px;
+
+margin: 0 auto;
+width: 240px;
+height: 44px;
+
+/* red/100 */
+background: #CC0A0A;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 189px;
+height: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.75px;
+
+/* white/100 */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* gos_links */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+margin: 0 auto;
+width: 514px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* МО_прав */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 184px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* image 139 */
+
+width: 20px;
+height: 24px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 160px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* МО_прав */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 4px;
+
+width: 140px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* image 139 */
+
+width: 20px;
+height: 24px;
+
+background: url(image);
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 116px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* госуслуги */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 4px;
+
+width: 166px;
+height: 24px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* лого_госуслуги */
+
+width: 23px;
+height: 24px;
+
+background: url(image);
+background-blend-mode: darken;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Caption */
+
+width: 139px;
+height: 24px;
+
+/* T2 */
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.44px;
+
+/* dark/54 */
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* ООО “Трудовой консультант” ИНН 772601001 */
+
+width: 196px;
+height: 24px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 8px;
+line-height: 24px;
+/* identical to box height, or 300% */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.44px;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+
+/* div */
+
+width: 1110px;
+height: 0px;
+
+/* blue/back */
+border: 1px solid #EAF1F6;
+
+/* Inside auto layout */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* Сео продвижение сайтов и комплексный маркетинг. Заказать рекламу в интернете. Заказать создание сайтов. */
+
+width: 1110px;
+height: 8px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 100%;
+/* identical to box height, or 8px */
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.44px;
+
+/* blue/light */
+color: #50B3FF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 7;
+align-self: stretch;
+flex-grow: 0;
