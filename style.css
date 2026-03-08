@@ -147,16 +147,15 @@ section {
 .header__rating-box {
   display: flex;
   flex-direction: column;
-  align-items: center;         /* ВАЖНО: строго по центру! */
-  justify-content: center;
-  min-width: 115px;            /* подгоняй по своему макету! */
+  align-items: center;
+  min-width: 110px;
 }
 
 .header__stars-row {
   display: flex;
   gap: 4px;
-  margin-bottom: 6px;
   justify-content: center;
+  margin-bottom: 6px;
 }
 
 .header__star {
@@ -165,16 +164,15 @@ section {
 }
 
 .header__rating-caption {
-  font-family: 'Arial', 'Tahoma', sans-serif;
   font-size: 13px;
-  color: #3562A6;      /* Ближе к макету, не чёрный, не тёмно-синий; если надо — пипеткой #3562A6, #567BB5, #517EBC */
+  color: #517BBC; /* близко к фигме, не чёрный */
   font-weight: 400;
-  line-height: 1.13;   /* Фирменная “плотность” */
+  line-height: 1.12;
   text-align: center;
   margin: 0;
   max-width: 120px;
   letter-spacing: 0.01em;
-  white-space: normal; /* Перенос строк если нужно */
+  font-family: Arial, Tahoma, Verdana, sans-serif;
 }
 
 .header__rating-text {
